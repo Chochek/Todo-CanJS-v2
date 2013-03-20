@@ -24,8 +24,7 @@
 
 			<select class="todo-user">
 				<option value="<%= todo.attr('user') %>"><%= todo.attr('user') %></option>
-				<% for(var i=0; i<users.length; i++) { 
-				console.log(todo.attr('user') +' '+users[i]);%>
+				<% for(var i=0; i<users.length; i++) { %>
 		            <% if (todo.attr('user') != users[i]) { %><option value="<%= users[i] %>"><%= users[i] %></option> <% } %>
 		        <% } %>
 			</select>
