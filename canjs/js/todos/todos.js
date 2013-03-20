@@ -32,7 +32,6 @@
 		// Handle a newly created Todo
 		'{Models.Todo} created': function (list, e, item) {
 			this.options.todos.push(item);
-			console.log(item);
 			// Reset the filter so that you always see your new todo
 			this.options.state.attr('filter', '');
 		},
