@@ -57,7 +57,6 @@
 			todo.attr({
 				user : el.val()
 			}).save();
-			console.log(todo);
 		},
 
 		// Update a todo
